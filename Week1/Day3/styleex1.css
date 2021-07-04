@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    
+    
+
+}
+
+.class1, .class2, .class3{
+    background-color: black;
+    height: 200px;   
+    width: 100%;
+    align-items: stretch;
+
+    margin-top: 10%;
+}
+
+.class1 {
+    align-self: flex-start;
+
+}
+
+.class2 {
+    align-self: center;
+}
+
+.class3 {
+    align-self: flex-end;
+}
+

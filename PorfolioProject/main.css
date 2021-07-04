@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+
+#header {
+    background-image: url("/Users/jeremycohen/Desktop/Dev institute/boootcamp/DI_Bootcamp/PorfolioProject/images/headerback.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    height: 600px;
+   
+}
+
+div #about {
+    justify-content: center;
+}
+
+#id {
+    border-right: 10px solid black;
+    margin-right: 5px;
+}
+
+table#portfolio-img tbody td {
+    height: 300px;
+    width: 300px;
+}
+table#portfolio-img tbody td img {
+    height: 300px;
+    height: 300px;
+}
+
+.card-img-top {
+    height: 180px;
+    width: 286px;
+}
