@@ -22,34 +22,17 @@ let guestList = {
 
   let indexOfResult = guestListObjectTitle.indexOf(result);
 
-  console.log(indexOfResult);
+  // console.log(indexOfResult);
 
-  // 
+  let match = guestList[result];
 
-  
+  // console.log(match);
+
   if(guestListObjectTitle.indexOf(result) !== -1)  
   {  
-          console.log("Hi i'm " + guestListObjectTitle.guestListObjectTitle[indexOfResult] + ", and i'm from " + guestList.[indexOfResult] );
+          console.log("Hi, i'm "+ result + ", and i'm from " + match); 
   }   
   else  
   {  
           alert("No, the value is absent.")  
   }  
-  
-
-  switch(result) {
-    case result == "randy":
-      console.log("Hi! I'm " + guestList[0] + ", and i'm from" + guestList.randy[0])
-      break;
-    case result == "karla":
-        console.log("Hi! I'm " + guestListObjectTitle[1] + ", and i'm from" + guestList.randy)
-      break;
-    default:
-      // code block
-  }
-
-  let result = prompt("Name please");
-
-  console.log(guestList.getElementsbyClassName);
-  console.log(guestList.randy.indexOf(guestList.randy));
-
